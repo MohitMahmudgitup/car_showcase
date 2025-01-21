@@ -1,17 +1,3 @@
-
-const options = {
-	method: 'GET',
-};
-
-try {
-	const response = await fetch(url, options);
-	const result = await response.text();
-	console.log(result);
-} catch (error) {
-	console.error(error);
-}
-
-
 export async function fetchCars() {
     const headers = {
         'x-rapidapi-key': 'f2c57fc246mshf4dfe354a21ec6fp10271djsnbd0172af0317',
