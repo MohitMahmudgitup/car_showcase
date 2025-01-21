@@ -3,7 +3,7 @@ import { footerLinks } from '@/app/contants'
 import Link from 'next/link'
 const Footer = () => {
   return (
-    <footer className='flex flex-col text-black mt-5 border-t border-gray-100'>
+    <footer className='flex  flex-col text-black mt-5 border-t border-gray-100'>
       <div className='flex max-md:flex-col flex-wrap  justify-between gap-5 sm:px-16 px-6 py-10 '>
         <div className='flex justify-start items-start flex-col'>
           <Image src="/logo.svg"  alt="#" width={180} height={18} className='object-center' />

@@ -11,6 +11,8 @@
   font-family: "Manrope", sans-serif;
 }
 
+
+
 /* START: General styles */
 .max-width {
   @apply max-w-[1440px] mx-auto;
@@ -217,3 +219,16 @@
   @apply cursor-default select-none py-2 pl-10 pr-4;
 }
 /* END: search manufacturer styles */
+
+
+/* For Webkit-based browsers (e.g., Chrome, Safari) */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #d1d5db; /* gray-300 */
+  border-radius: 4px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background-color: #f3f4f6; /* gray-100 */
+}
